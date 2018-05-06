@@ -1,3 +1,40 @@
+# L3  
+  # Templeate CheckList
+
+  1. Inline Template
+    * For short templates
+    * specify the template property
+    * Use the ES 2015 back ticks for multiple lines
+    * watch syntax
+  2. Linked Template
+    * For longer templates
+    * specify the templateUrl property
+    * define the path to the HTML file
+
+  # Interpolation Checklist
+
+  ~> One way binding
+    * From component class property to an element property.
+  ~> Defined with double curly braces
+    * Contains a template expression
+    * No quote needed
+
+  # Structural Directives Checklist
+
+  *ngIf and *ngFor
+    * Prefix with an asterisk
+    * Assign to a quoted string expression
+  
+  1. *ngIf
+    * Expression is evaluated as true or false value
+  2. *ngFor
+    * Define the local variable with let
+    * Specify 'of': 'let product of products'
+    
+
+------------------------------------------------------------------------------
+
+
 # L2 - Component Checklist
 
 Class -> Code
