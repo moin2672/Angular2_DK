@@ -1,3 +1,47 @@
+# L2 - Component Checklist
+
+Class -> Code
+Decorator -> Metadata
+Import -> whichever needed
+
+1. Class
+  a. clear name
+      ~> Use Pascalcasing
+      ~> Append "Component" to the name
+  b. export keyword
+  c. Data in properties
+      ~> Appropriate data type
+      ~> Appropriate default value
+      ~> camelCase with first letter lowercase
+  d. Logic in methods
+    ~> use camelCase with first letter lowercase
+
+2. Metadata
+  a. Component decorator
+    ~> Prefix with @; suffix with ()
+  b. selector: Component name in HTML
+    ~> Prefix for clarity
+  c. template: View's HTML
+    ~> correct HTML syntax
+
+3. Import: defines where to find the members that this component needs
+  a. import keyword
+  b. Member name
+    ~> Correct spellin/casing
+  c. Module path
+    ~> Enclose in quotes
+
+# Error: Check list
+1. F12 key to check console
+2. Recheck your code
+    ~> HTML
+      * close tags
+      * Angular directives are case sensitive
+    ~> Typescript
+      * close braces
+      * typescript is case sensitive
+3. Check the issue solution on-line
+
 # APM
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.4.
