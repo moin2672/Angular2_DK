@@ -1,3 +1,33 @@
+# L4
+
+#Data Binding
+#      Types        -->     Work Flow    -->    Example
+1. Interpolation    --> Component to DOM --> {{pageTitle}}
+2. Property Binding --> Component to DOM --> <img [src]='product.imageUrl'>
+3. Event Binding    --> DOM to Component --> <button (click)='toggleImage()'>
+4. Two-way Binding  --> C to D or D to C --> <input [(ngModel)]='listFilter' />
+
+
+# ngModel Checklist
+
+1. define ngModel in [()]
+2. be sure to add FormsModule in app.module.ts in imports array
+
+# Pipes Checklist
+
+1. specify pipe character '|'
+2. pipe name
+3. pipe parameters
+	* seperated with colons ':'
+
+#Example
+
+{{product.price | currency:'INR':true:'1.2-2' }}<
+
+
+---------------------------------------------------------------------
+
+
 # L3  
   # Templeate CheckList
 
