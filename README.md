@@ -1,3 +1,58 @@
+# L7
+
+# Registering a Service
+
+1. Register a provider
+	* Code that can create or return a service
+	* Typically the service class itself
+
+2. Define in component or Angular module metadat
+
+* Registered in component:
+	* Injectable to component AND its children
+
+* Registered in Angular module:
+	* Injectable everywhere in the population
+
+# Creating a service
+
+1. Service class
+	* clear name
+	* use pascalcasing
+	* append  "service" to the name
+	* export keyword
+
+2. Service decorator
+	* use injectable
+	* prefix with @
+	* suffix with ()
+
+3. Import what we need
+
+
+# Registering a service in a component
+
+1. select the appropriate level in the hierarchy
+	* Root component if service is used throughout the application
+	* Specific component if only that component uses the service
+	* otherwise, common ancestor
+
+2. Component metadata
+	* Set the providers property
+	* Pass in an array
+
+3. Import what we need
+
+# Dependency Injection
+
+1. Specify the service as a dependency
+2. Use a constructor parameter
+3. Service is injected when component is instantiated
+
+
+-----------------------------------------------------------
+
+
 # L6
 
 # Nested Component Checklist
