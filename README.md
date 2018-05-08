@@ -1,3 +1,58 @@
+# L5
+
+# Interfaces checklist
+
+defines custom types
+1. creatingn interfaces:
+	* interface keyword
+	* export it
+
+2. Implementing interfaces:
+	* implements keyword & interface name
+	* write code for each property & method
+
+# Encapsulating Styles checklist
+
+1. styles property
+	* specify an array of style  strings
+2. styleUrls property
+	* specify an array of stylesheet paths
+
+
+# Using Lifecycle Hooks:
+
+1. Import the lifecycle hook interface
+2. Implement the lifecycle hook interface
+3. Write code for the hook method
+
+# Component Lifecycle Hooks:
+
+* OnInit: Perform component initialization, retrieve data
+* OnChanges: Perform action after change to input properties
+* OnDestroy: Perform cleanup
+
+# Building a custom Pipe
+
+1. Import Pipe and PipeTransform
+2. Create a class that implements PipeTransform
+	* export the class
+3. Write code for the Transform method
+4. Decorate the class with the Pipe decorator
+
+# Using a Custom Pipe
+
+1. Import the custom pipe
+2. Add the pipe to the declarations array of an Angular module
+3. Any template associated with a component that is also declared in that Angular module can use that pipe
+4. Use the Pipe in the template
+	* Pipe character
+	* Pipe name
+	* Pipe arguments (separated with colons)
+
+
+--------------------------------------------------------------
+
+
 # L4
 
 #Data Binding
