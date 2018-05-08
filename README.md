@@ -1,3 +1,31 @@
+# L6
+
+# Nested Component Checklist
+
+1. Input decorator
+	* Attached to a property of any type 
+	* Prefix with @;
+	* Suffix with ()
+2. Output decorator
+	* Attached to a property declared as an EventEmitter
+	* Use the generic argument to define the event payload type
+	* Use the new keyword to create an instance of the Event Emitter
+	* Prefix with @;
+	* Suffix with ()
+
+# Container Component checklist
+
+1. Use the directive
+	* Directive name -> nested component's selector
+2. Use property binding to pass data to the nested component
+
+3.  Use event binding to respond to events from the nested component
+	* Use $event to access the event payload passed from the nested component
+
+
+---------------------------------------------------------------
+
+
 # L5
 
 # Interfaces checklist
