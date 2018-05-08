@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
 import { IProduct } from "./product";
-import { registerModuleFactory } from "@angular/core/src/linker/ng_module_factory_loader";
 
 @Component({
   selector: "pm-products",
@@ -64,4 +63,6 @@ filteredProducts: IProduct[];
   ngOnInit(): void {
     console.log("In OnInit");
   }
+
+
 }
