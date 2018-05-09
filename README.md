@@ -271,7 +271,7 @@ defines custom types
 
 #Example
 
-{{product.price | currency:'INR':true:'1.2-2' }}<
+{{product.price | currency:'USD':true:'1.2-2' }}<
 
 
 ---------------------------------------------------------------------
