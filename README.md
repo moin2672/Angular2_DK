@@ -1,3 +1,70 @@
+# L9
+
+* to create a component with folder
+ng g c products/product-detail.component
+
+* without folder
+ng g c products/product-detail.component --flat
+
+# #product?.productName will not work for double binding
+
+# How Routing works
+
+1. Congfigure a route for each component
+2. Define options/actions
+3. Tie a route to each option/action
+4. Activate the route based on user action
+5. Activating a route dispays the component's view
+
+# Displaying Components : Check List
+
+1. Nest-able components
+	* Define a selector
+	* Nest in another component
+	* No route
+
+2. Routed Components
+	* No selector
+	* Configure routes
+	* Tie routes to actions
+
+# Doing Routing : CheckList
+1. Configure routes
+2. Tie routes to actions
+3. Place the view
+
+# Checklist: Configuring Routes 
+
+1. Define the base element (index.html)
+2. Add Router Module
+	* Add each route (RouterModule.forRoot)
+	* Order matters
+3. path: URL segment for the route
+	* No leading slash
+	* '' for default route
+	* '**' for wildcard route
+4. component
+	* Not string name not enclosed in quotes
+
+# Checklist: Tying Routes to Actions
+
+1. Add the Routerink directive as an attribute
+	* Clickable element
+	* Enclose in square brackets
+2. Bind to a link parameters array
+	* First element is the path
+	* All other elements are route parameters
+
+# Checklist : Placing the view
+
+1. Add the RouterOutlet directive
+	* Identifies where to display the routed component's view
+	* Specified in the host component's template
+
+
+--------------------------------------------------------------------
+
+
 # L8
 
 # Observables and Reactive Extensions
