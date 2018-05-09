@@ -1,3 +1,47 @@
+# L8
+
+# Observables and Reactive Extensions
+
+1. Help manage asynchronous data
+2. Treat events as a collection
+	* An array whose items arrive asynchronously over time
+3. Are a proposed feature for ES 2016
+4. Use Reactive Extension (RxJS)
+5. Are used within Angular
+
+# Observable Operators
+
+1. methods on observables that compose new observables
+2. Transform the source observable in some way
+3. Process each value as it is emitted
+4. Examples: map, filter, take, merge...
+
+# Http Checklist: setup
+
+* Add HttpClientModule to the imports array of one of the application's Angular Modules.
+
+# Http checklist : Service 
+
+1. Import what we need
+2. Define a dependency for the http client service
+	* Use a constructor parameter
+3. Create a method for each http request
+4. Call the desired http method, such as get
+	* Pass in the Url
+5. Use generics to specify the returned type
+6. Add Error handling
+
+
+# Http checklist: Subscribing
+
+1. Call the subscribe method of the returned observable
+2. Provide a function to handle an emitted item
+	* Normally assigns a property to the returned JSON object
+3. Provide an error function to handle any returned errors
+
+---------------------------------------------------
+
+
 # L7
 
 # Registering a Service
