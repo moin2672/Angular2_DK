@@ -1,3 +1,45 @@
+# L10
+
+Protecting Routes with Guards
+
+1. CanActivate
+	* Guard navigation to a route
+2. CanDeactivate
+	* Guard navigation from a route
+3. Resolve
+	* Pre-fetch data before activating a route
+4. CanLoad
+	* Prevent asynchronous routing
+
+# to create a service without declaration in app module
+ng g s products/product-guard.service
+
+# to create a service with declaration
+ng g s products/product-guard.service -m app.module
+
+# Passing parameters Checklist
+
+1. Use the Router service
+	* Import the service
+	* Define it as a dependency
+2. Create a method that calls the navigate method of the Router service
+	* Pass in the link parameters array
+3. Add a user interface element
+	* Use event binding to bind to the created method
+
+# Protecting Routes with Guards
+
+1. Build a guard service
+	* Implement the guard type (CanActivate)
+	* Create a method (CanActivate())
+2. Register the guard service provider
+	* Must be in an Angular module
+3. Add the guard to the desired route
+
+
+-------------------------------------------------------------------
+
+
 # L9
 
 * to create a component with folder
