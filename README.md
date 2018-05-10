@@ -1,3 +1,40 @@
+# L11
+# Bootstrap Array Truth
+1. Every application must bootstrap atleast one component, the root application component
+
+2. The bootstrap array should only be used in the root application module, AppModule
+
+# Declarations Array Truth
+1. Every component, directive and pipe we create must belong to one and only one Angular module
+
+2. Only declare components, directives and pipes
+
+3. Never re-declare components, directives or pipes that belong to another module
+
+4. All declared components, directives and pipes are private by default.
+	* They are only accessible to other components, directives and pipes declared in the same module
+
+5. The Angular module provides the template resolution environment for its component templates.
+
+# Imports array truth
+1. Importing a module makes available any exported components, directives and pipes from that module.
+
+2. Only import what this module needs.
+
+3. Importing a module does NOT provide access to its imported module
+
+# To create module
+ng g m products/product --flat -m app.module
+
+ng g m shared/shared --flat -m products/product.module
+
+--flat (without folder)
+-m (import)
+
+
+-------------------------------------------------------
+
+
 # L10
 
 Protecting Routes with Guards
