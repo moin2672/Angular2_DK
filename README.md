@@ -31,6 +31,22 @@ ng g m shared/shared --flat -m products/product.module
 --flat (without folder)
 -m (import)
 
+# Module Structure checklist
+
+1. Root application module(AppModule)
+2. Feature Module
+3. Shared Module (SharedModule)
+4. Core module (CoreModule)
+5. Routing Module
+
+# NgModule Metadata
+
+1. Bootstrap: Startup component(s)
+2. Declarations: What belongs to this module
+3. Exports: What an importing module can use
+4. Imports: Supporting modules
+5. Provideers: Service providers
+
 
 -------------------------------------------------------
 
