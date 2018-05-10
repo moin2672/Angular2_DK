@@ -41,15 +41,15 @@ ng build --help
 
 # Angular CLI checklist: ng generate
 
-class - ng g cl
-component -  ng g c
-directive - ng g d
-enum - ng g e
-guard - ng g g
-interface -  ng g i
-module -  ng g m
-pipe - ng g pipe
-service - ng g s
+* class - ng g cl
+* component -  ng g c
+* directive - ng g d
+* enum - ng g e
+* guard - ng g g
+* interface -  ng g i
+* module -  ng g m
+* pipe - ng g pipe
+* service - ng g s
 
 ---------------------------------------------------------------------
 
@@ -80,12 +80,16 @@ service - ng g s
 3. Importing a module does NOT provide access to its imported module
 
 # To create module
-ng g m products/product --flat -m app.module
+* ng g m products/product --flat -m app.module
+* ng g m shared/shared --flat -m products/product.module
+    * --flat (without folder)
+    * -m (import)
 
-ng g m shared/shared --flat -m products/product.module
+# app-routing.module.ts
+ng g m products/app-routing --flat -m app.module
 
---flat (without folder)
--m (import)
+# product-routing.module.ts
+ng g m shared/product-routing --flat -m products/product.module
 
 # Module Structure checklist
 
