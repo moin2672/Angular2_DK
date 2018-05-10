@@ -1,3 +1,61 @@
+# L12
+
+# L12
+
+# Angular CLI checklist: Commands
+
+* ng help - Displays commands and flags
+* ng new - Creates new Angular application
+* ng serve -  Launches a server
+* ng generate - Generates file from blueprint
+* ng test - Runs unit tests using Karma
+* ng e2e - Runs end to end tests using Protractor
+* ng build - Compiles into an output directory
+
+
+# Angular CLI
+Command Line Interface
+
+# Installing Angular CLI
+npm install -g @angular/cli
+
+# demo
+* ng new hello-world
+ng new --help
+* ng serve
+ng serve -o (to open it automatically in the default browser)
+ng serve --help
+* ng generate
+ng g --help
+ng g c welcome
+* ng build
+
+
+Before production, code should be:
+1. minify/uglify
+2. tree shaking
+3. AOT: Ahead of Time compiler (ng build --prod)
+
+when "ng build --prod" executed, we get 'dist' folder having a ash as part of the file name called as "cache busting technique".
+
+ng build --help
+
+
+# Angular CLI checklist: ng generate
+
+class - ng g cl
+component -  ng g c
+directive - ng g d
+enum - ng g e
+guard - ng g g
+interface -  ng g i
+module -  ng g m
+pipe - ng g pipe
+service - ng g s
+
+---------------------------------------------------------------------
+
+
 # L11
 # Bootstrap Array Truth
 1. Every application must bootstrap atleast one component, the root application component
