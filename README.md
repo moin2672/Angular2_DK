@@ -1,7 +1,5 @@
 # L12
 
-# L12
-
 # Angular CLI checklist: Commands
 
 * ng help - Displays commands and flags
